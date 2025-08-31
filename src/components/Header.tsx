@@ -43,6 +43,13 @@ const Header: React.FC = () => {
             </Link>
           )}
           
+          <Link 
+            to="/learning" 
+            style={{ color: 'white', textDecoration: 'none' }}
+          >
+            {isVietnamese ? 'Học tập AI' : 'AI Learning'}
+          </Link>
+          
           {state.isTestActive && state.currentSession && (
             <div style={{ 
               display: 'flex', 

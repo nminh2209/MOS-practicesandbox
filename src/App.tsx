@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import TestSelection from './pages/TestSelection';
 import Practice from './pages/Practice';
 import Results from './pages/Results';
+import Learning from './pages/Learning';
 import { TestProvider } from './context/TestContext';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/select" element={<TestSelection />} />
           <Route path="/practice/:appType" element={<Practice />} />
           <Route path="/results" element={<Results />} />
+          <Route path="/learning" element={<Learning />} />
         </Routes>
       </div>
     </TestProvider>

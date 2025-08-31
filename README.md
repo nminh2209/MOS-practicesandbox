@@ -8,6 +8,7 @@ This web application provides comprehensive practice tests for Microsoft Office 
 
 ### Key Features
 - **60+ Practice Questions** across 4 Microsoft Office applications
+- **AI Learning Assistant** with interactive chatbot for personalized guidance
 - **Bilingual Support** with English and Vietnamese language options
 - **Realistic Testing Environment** with time limits and scoring
 - **Comprehensive Coverage** from beginner to advanced skill levels

@@ -37,6 +37,22 @@ const Home: React.FC = () => {
         </div>
 
         <div className="card" style={{ textAlign: 'center' }}>
+          <div style={{ fontSize: '48px', marginBottom: '20px' }}>🤖</div>
+          <h3 style={{ marginBottom: '15px', color: '#0078d4' }}>
+            {isVietnamese ? 'Trợ lý Học tập AI' : 'AI Learning Assistant'}
+          </h3>
+          <p style={{ marginBottom: '20px', color: '#666' }}>
+            {isVietnamese 
+              ? 'Trò chuyện với AI để nhận hướng dẫn cá nhân hóa và giải thích chi tiết'
+              : 'Chat with AI for personalized guidance and detailed explanations'
+            }
+          </p>
+          <Link to="/learning" className="btn btn-primary">
+            {isVietnamese ? 'Bắt đầu Học tập' : 'Start Learning'}
+          </Link>
+        </div>
+
+        <div className="card" style={{ textAlign: 'center' }}>
           <div style={{ fontSize: '48px', marginBottom: '20px' }}>⏱️</div>
           <h3 style={{ marginBottom: '15px', color: '#0078d4' }}>
             {isVietnamese ? 'Môi trường Có thời hạn' : 'Timed Environment'}
