@@ -30,8 +30,10 @@ export default async function handler(
     // Debug logging (remove after testing)
     console.log('API Key exists:', !!apiKey);
     console.log('API Key length:', apiKey ? apiKey.length : 0);
+    console.log('Request body:', { message, language });
     
     if (!apiKey) {
+      console.log('No API key found, returning fallback response');
       // Fallback response if no API key is configured
       const fallbackResponse = language === 'en'
         ? `I understand your question about "${message}". Here's what I can help you with:
@@ -59,7 +61,10 @@ For a complete AI experience, please configure the Gemini API key in your enviro
       ? `You are an expert Microsoft Office instructor helping users prepare for MOS certification. Provide clear, actionable advice about Word, Excel, PowerPoint, and Outlook. Be encouraging and supportive. Keep responses focused on practical learning.`
       : `Bạn là một giảng viên Microsoft Office chuyên nghiệp giúp người dùng chuẩn bị chứng chỉ MOS. Đưa ra lời khuyên rõ ràng, có thể thực hiện được về Word, Excel, PowerPoint và Outlook. Hãy khuyến khích và hỗ trợ. Tập trung vào việc học thực tế.`;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${apiKey}`, {
+    console.log('Making Gemini API call...');
+    
+    // Use the correct model endpoint from Google AI Studio
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -80,12 +85,45 @@ For a complete AI experience, please configure the Gemini API key in your enviro
     });
 
     if (!response.ok) {
+      const errorText = await response.text();
+      console.error('Gemini API error:', response.status, errorText);
+      
+      // Handle quota exceeded specifically
+      if (response.status === 429) {
+        const quotaErrorResponse = language === 'en'
+          ? `I'm currently experiencing high demand and have reached my API quota limit. Here's what I can help you with about "${message}":
+
+For **Mail Merge in Word** (your question):
+1. **Go to Mailings tab** → Start Mail Merge → Letters
+2. **Select Recipients** → Use Existing List (Excel file)  
+3. **Insert Merge Fields** where you want personalized data
+4. **Preview Results** to check formatting
+5. **Finish & Merge** → Print or Email
+
+This is a powerful feature for creating personalized letters, labels, and emails! Try our practice tests for hands-on experience.`
+          : `Tôi hiện đang có nhu cầu cao và đã đạt đến giới hạn quota API. Đây là những gì tôi có thể giúp bạn về "${message}":
+
+Cho **Mail Merge trong Word** (câu hỏi của bạn):
+1. **Vào tab Mailings** → Start Mail Merge → Letters
+2. **Select Recipients** → Use Existing List (tệp Excel)
+3. **Insert Merge Fields** nơi bạn muốn dữ liệu cá nhân hóa
+4. **Preview Results** để kiểm tra định dạng  
+5. **Finish & Merge** → Print hoặc Email
+
+Đây là tính năng mạnh mẽ để tạo thư, nhãn và email cá nhân hóa! Hãy thử các bài kiểm tra thực hành để trải nghiệm thực tế.`;
+          
+        return res.json({ response: quotaErrorResponse });
+      }
+      
       throw new Error(`Gemini API error: ${response.status}`);
     }
 
     const data = await response.json();
+    console.log('Gemini response:', data);
+    
     const aiResponse = data.candidates?.[0]?.content?.parts?.[0]?.text || 'Sorry, I could not generate a response.';
 
+    console.log('Sending response:', aiResponse);
     return res.json({ response: aiResponse });
 
   } catch (error) {
