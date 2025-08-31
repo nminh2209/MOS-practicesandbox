@@ -141,14 +141,19 @@ const Learning: React.FC = () => {
 
     try {
       // Call Vercel serverless function
+      console.log('Making API call to /api/chat');
       const response = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: inputMessage, language })
       });
       
+      console.log('API Response status:', response.status);
+      
       if (!response.ok) {
-        throw new Error('Failed to get AI response');
+        const errorText = await response.text();
+        console.error('API Error:', response.status, errorText);
+        throw new Error(`Failed to get AI response: ${response.status}`);
       }
       
       const data = await response.json();
