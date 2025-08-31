@@ -22,9 +22,23 @@ This web application provides comprehensive practice tests for Microsoft Office 
 - Context API for state management
 
 ### Quick Start
+
+#### Local Development
 ```bash
 npm install
 npm run dev
 ```
+
+#### Deploy to Vercel
+1. **Connect your GitHub repository** to Vercel
+2. **Add Environment Variable** in Vercel dashboard:
+   - Go to Settings → Environment Variables
+   - Add `GEMINI_API_KEY` with your [Google AI Studio API key](https://makersuite.google.com/app/apikey)
+3. **Deploy** - Vercel handles the rest automatically!
+
+#### AI Features Setup
+- **With API Key**: Full Gemini-powered learning assistant
+- **Without API Key**: Smart fallback responses (app works perfectly)
+- **Get API Key**: Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
 
 **Note**: This is an educational tool and not officially affiliated with Microsoft.
