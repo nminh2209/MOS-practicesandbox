@@ -245,6 +245,86 @@ export const wordQuestionsVi: TestQuestion[] = [
       'Sử dụng cơ bản một số tính năng cộng tác',
       'Thử các tính năng cộng tác nhưng triển khai tối thiểu'
     ]
+  },
+  {
+    id: 'word-6',
+    type: 'word',
+    title: 'Mục lục và Tài liệu tham khảo',
+    description: 'Tạo mục lục tự động và quản lý tài liệu tham khảo.',
+    instruction: 'Chèn mục lục tự động ở đầu tài liệu sử dụng kiểu tiêu đề có sẵn. Thêm ngắt trang trước mỗi phần chính. Chèn chú thích cuối trang cho ít nhất 3 trích dẫn và tạo phần thư mục với định dạng phù hợp.',
+    difficulty: 'intermediate',
+    timeLimit: 400,
+    points: 20,
+    options: [
+      'Mục lục hoàn chỉnh với định dạng phù hợp, chú thích và thư mục',
+      'Mục lục được tạo nhưng thiếu định dạng hoặc tham khảo',
+      'Mục lục cơ bản nhưng chú thích hoặc thư mục không hoàn chỉnh',
+      'Thử mục lục nhưng hầu hết không hoàn chỉnh'
+    ]
+  },
+  {
+    id: 'word-7',
+    type: 'word',
+    title: 'Đồ họa SmartArt và Biểu đồ',
+    description: 'Chèn và tùy chỉnh đồ họa SmartArt để trực quan hóa thông tin.',
+    instruction: 'Chèn đồ họa SmartArt "Quy trình" hiển thị quy trình làm việc 4 bước. Tùy chỉnh màu sắc để phù hợp với chủ đề tài liệu, thay đổi kích thước phù hợp và thêm văn bản mô tả cho mỗi bước. Bên dưới, chèn biểu đồ cột đơn giản với dữ liệu mẫu.',
+    difficulty: 'beginner',
+    timeLimit: 300,
+    points: 16,
+    options: [
+      'SmartArt và biểu đồ được chèn với tùy chỉnh và định dạng phù hợp',
+      'Đồ họa được chèn nhưng tùy chỉnh hạn chế hoặc vấn đề định dạng',
+      'Đồ họa cơ bản được thêm nhưng tích hợp kém với tài liệu',
+      'Thử đồ họa nhưng thành công tối thiểu'
+    ]
+  },
+  {
+    id: 'word-8',
+    type: 'word',
+    title: 'Tạo Biểu mẫu với Content Controls',
+    description: 'Thiết kế biểu mẫu tương tác sử dụng Word content controls.',
+    instruction: 'Tạo biểu mẫu phản hồi với các điều khiển sau: nhập văn bản cho tên, dropdown cho lựa chọn phòng ban (HR, IT, Marketing, Sales), chọn ngày cho ngày phản hồi, và tùy chọn checkbox cho đánh giá (Xuất sắc, Tốt, Trung bình, Kém). Bảo vệ biểu mẫu.',
+    difficulty: 'advanced',
+    timeLimit: 540,
+    points: 28,
+    options: [
+      'Biểu mẫu chức năng hoàn chỉnh với tất cả điều khiển và bảo vệ phù hợp',
+      'Biểu mẫu được tạo với hầu hết điều khiển nhưng thiếu một số chức năng',
+      'Biểu mẫu cơ bản nhưng điều khiển hoặc bảo vệ không hoàn chỉnh',
+      'Thử tạo biểu mẫu nhưng hầu hết không hoạt động'
+    ]
+  },
+  {
+    id: 'word-9',
+    type: 'word',
+    title: 'Ngắt Phần và Bố cục Cột',
+    description: 'Sử dụng ngắt phần để tạo bố cục trang khác nhau trong cùng một tài liệu.',
+    instruction: 'Tạo bố cục bản tin: Trang tiêu đề (cột đơn), phần bài viết (2 cột), và phụ lục (3 cột). Sử dụng ngắt phần liên tục giữa các phần. Áp dụng đầu trang khác nhau cho mỗi phần và đảm bảo luồng văn bản phù hợp.',
+    difficulty: 'intermediate',
+    timeLimit: 450,
+    points: 24,
+    options: [
+      'Bố cục phần hoàn hảo với ngắt phù hợp và định dạng cột',
+      'Bố cục phần tốt nhưng vấn đề định dạng nhỏ',
+      'Phần cơ bản được tạo nhưng định dạng không nhất quán',
+      'Thử phần nhưng thực hiện bố cục kém'
+    ]
+  },
+  {
+    id: 'word-10',
+    type: 'word',
+    title: 'Thao tác Tìm và Thay thế Nâng cao',
+    description: 'Sử dụng tính năng tìm và thay thế nâng cao để chỉnh sửa tài liệu.',
+    instruction: 'Sử dụng Tìm & Thay thế để: 1) Thay thế tất cả "công ty" bằng "tổ chức" (phân biệt chữ hoa/thường), 2) Tìm tất cả địa chỉ email và định dạng màu xanh, 3) Sử dụng ký tự đại diện để tìm tất cả năm 4 chữ số và làm đậm, 4) Thay thế khoảng trắng kép bằng khoảng trắng đơn trong toàn tài liệu.',
+    difficulty: 'advanced',
+    timeLimit: 360,
+    points: 22,
+    options: [
+      'Tất cả thao tác tìm và thay thế được hoàn thành chính xác',
+      'Hầu hết thao tác hoàn thành nhưng có lỗi nhỏ hoặc thiếu sót',
+      'Một số thao tác hoàn thành nhưng có lỗi đáng kể',
+      'Thử thao tác nhưng hầu hết không thành công'
+    ]
   }
 ];
 
@@ -252,81 +332,241 @@ export const excelQuestionsEn: TestQuestion[] = [
   {
     id: 'excel-1',
     type: 'excel',
-    title: 'Advanced Formula Creation',
-    description: 'Create complex formulas using multiple functions to analyze sales data.',
-    instruction: 'In cell E2, create a formula using VLOOKUP to find product prices from a lookup table. In F2, use IF and AND functions to apply a 10% discount if quantity > 50 AND product type = "Premium". In G2, use SUMIFS to calculate total sales for each region.',
+    title: 'VLOOKUP with Error Handling',
+    description: 'Create a VLOOKUP formula with proper error handling for missing data.',
+    instruction: 'In cell E2, create a VLOOKUP formula to find product prices from table A2:B10. Use IFERROR to display "Not Found" for missing items. The lookup value is in D2, return the price from column 2, use exact match.',
     difficulty: 'intermediate',
-    timeLimit: 360,
-    points: 20,
+    timeLimit: 240,
+    points: 18,
     options: [
-      'All formulas created correctly with proper syntax and results',
-      'Most formulas correct but minor syntax errors or missing conditions',
-      'Some formulas working but incomplete or incorrect logic',
-      'Attempted formulas but mostly incorrect or non-functional'
+      '=IFERROR(VLOOKUP(D2,A$2:B$10,2,FALSE),"Not Found") with correct syntax',
+      'VLOOKUP formula works but missing error handling',
+      'Formula attempts VLOOKUP but has syntax errors',
+      'Incorrect formula or approach used'
     ]
   },
   {
     id: 'excel-2',
     type: 'excel',
-    title: 'Interactive Dashboard with Charts',
-    description: 'Create a comprehensive dashboard with multiple chart types and interactive elements.',
-    instruction: 'Create a column chart showing monthly sales trends, a pie chart for product category breakdown, and a line chart for quarterly growth. Add chart titles, legends, and data labels. Insert slicers to filter data interactively and format charts professionally.',
-    difficulty: 'advanced',
-    timeLimit: 540,
-    points: 28,
+    title: 'Conditional Formatting with Multiple Rules',
+    description: 'Apply conditional formatting with multiple rules to highlight data patterns.',
+    instruction: 'In range B2:E20, create conditional formatting rules: 1) Values >100 in green, 2) Values between 50-100 in yellow, 3) Values <50 in red, 4) Duplicate values with blue border.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 20,
     options: [
-      'Complete dashboard with all chart types, proper formatting, and working slicers',
-      'Most charts created with good formatting but missing some interactive elements',
-      'Basic charts created but incomplete formatting or missing slicers',
-      'Attempted charts but poor formatting and minimal interactivity'
+      'All four conditional formatting rules applied correctly with proper colors and ranges',
+      'Most rules applied but missing one condition or incorrect range',
+      'Basic conditional formatting but incomplete rules or wrong colors',
+      'Minimal formatting applied or mostly incorrect'
     ]
   },
   {
     id: 'excel-3',
     type: 'excel',
-    title: 'PivotTable Analysis',
-    description: 'Create comprehensive PivotTable reports to analyze business data.',
-    instruction: 'Create a PivotTable showing sales by region and product category. Add a calculated field for profit margin. Group dates by quarters, apply conditional formatting to highlight top performers, and create a PivotChart. Add slicers for interactive filtering.',
+    title: 'PivotTable with Calculated Field',
+    description: 'Create a PivotTable with calculated fields and custom grouping.',
+    instruction: 'Create a PivotTable from data in A1:F50. Add Region to Rows, Product to Columns, Sum of Sales to Values. Create calculated field "Profit Margin" = (Sales-Cost)/Sales*100. Group dates by quarters.',
     difficulty: 'advanced',
     timeLimit: 480,
-    points: 25,
+    points: 28,
     options: [
-      'Complete PivotTable with calculated fields, grouping, formatting, and chart',
-      'Good PivotTable setup but missing some advanced features',
-      'Basic PivotTable created but incomplete analysis features',
-      'Attempted PivotTable but minimal functionality'
+      'Complete PivotTable with calculated field, proper grouping, and correct layout',
+      'PivotTable created with calculated field but missing date grouping',
+      'Basic PivotTable structure but calculated field has errors',
+      'PivotTable attempt but major errors or missing components'
     ]
   },
   {
     id: 'excel-4',
     type: 'excel',
-    title: 'Data Validation and Protection',
-    description: 'Implement data validation rules and worksheet protection for data integrity.',
-    instruction: 'Create dropdown lists for product categories using Data Validation. Set up input restrictions for date ranges and numeric values. Add custom error messages and input messages. Protect the worksheet allowing only specific cells to be edited.',
-    difficulty: 'intermediate',
-    timeLimit: 420,
-    points: 22,
+    title: 'INDEX-MATCH Advanced Lookup',
+    description: 'Use INDEX-MATCH for flexible two-way lookups.',
+    instruction: 'In cell F2, create an INDEX-MATCH formula to lookup values from table A1:D20. Lookup value in E2 should find the matching row, then return value from column specified in E1 (column number).',
+    difficulty: 'advanced',
+    timeLimit: 360,
+    points: 25,
     options: [
-      'Complete data validation with dropdowns, restrictions, and protection',
-      'Good validation setup but missing some error messages or protection',
-      'Basic data validation but incomplete implementation',
-      'Attempted validation but minimal functionality'
+      '=INDEX(A$1:D$20,MATCH(E2,A$1:A$20,0),E$1) with proper absolute references',
+      'INDEX-MATCH formula works but has referencing issues',
+      'Formula attempts INDEX-MATCH but syntax errors present',
+      'Incorrect approach or non-functional formula'
     ]
   },
   {
     id: 'excel-5',
     type: 'excel',
-    title: 'Financial Modeling and Analysis',
-    description: 'Create financial models using advanced Excel functions and analysis tools.',
-    instruction: 'Build a loan calculator using PMT, IPMT, and PPMT functions. Create a depreciation schedule using different methods (SLN, DB, DDB). Add sensitivity analysis using Data Tables and Goal Seek to determine optimal loan terms.',
+    title: 'Data Validation with Custom Lists',
+    description: 'Implement data validation with dependent dropdown lists.',
+    instruction: 'Create dropdown in B2:B10 with options: Electronics, Clothing, Books. In C2:C10, create dependent dropdown that shows subcategories based on B column selection (Electronics: Phone,Laptop,Tablet; Clothing: Shirt,Pants,Shoes; Books: Fiction,Non-fiction,Science).',
     difficulty: 'advanced',
-    timeLimit: 600,
+    timeLimit: 420,
+    points: 26,
+    options: [
+      'Both dropdowns work correctly with dependent relationships and all subcategories',
+      'Primary dropdown works, dependent dropdown partially functional',
+      'Basic dropdown validation but dependency not working properly',
+      'Data validation attempted but mostly non-functional'
+    ]
+  },
+  {
+    id: 'excel-6',
+    type: 'excel',
+    title: 'Dynamic Chart with Data Tables',
+    description: 'Create a dynamic chart that updates with changing data using named ranges.',
+    instruction: 'Create a column chart using dynamic named ranges. Data in A1:C12 should automatically update chart when new data is added. Add data table below chart, format with borders and alternating row colors.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 22,
+    options: [
+      'Dynamic chart updates automatically with new data, properly formatted data table',
+      'Chart created but not fully dynamic, data table present with good formatting',
+      'Basic chart with some dynamic elements, data table has formatting issues',
+      'Static chart or major issues with data table formatting'
+    ]
+  },
+  {
+    id: 'excel-7',
+    type: 'excel',
+    title: 'Goal Seek and Scenario Analysis',
+    description: 'Use Goal Seek to find target values and create scenario analysis.',
+    instruction: 'In a loan calculator model, use Goal Seek to find the loan amount needed for monthly payment of $500. Create scenarios showing payments for 5%, 6%, and 7% interest rates. Display results in summary table.',
+    difficulty: 'advanced',
+    timeLimit: 480,
     points: 30,
     options: [
-      'Complete financial model with all functions and analysis tools working correctly',
-      'Good financial model but missing some advanced analysis features',
-      'Basic financial calculations but incomplete modeling',
-      'Attempted financial model but mostly incorrect or non-functional'
+      'Goal Seek correctly finds target loan amount, scenario analysis complete with summary',
+      'Goal Seek works but scenario analysis incomplete or formatting issues',
+      'Basic Goal Seek attempt but scenarios not properly implemented',
+      'Goal Seek or scenario tools not used correctly'
+    ]
+  },
+  {
+    id: 'excel-8',
+    type: 'excel',
+    title: 'Array Formulas and SUMPRODUCT',
+    description: 'Create array formulas using SUMPRODUCT for complex calculations.',
+    instruction: 'Use SUMPRODUCT to calculate: 1) Total sales for Region="East" AND Product="Laptop", 2) Average price for items with quantity >10, 3) Count of unique customers in the dataset.',
+    difficulty: 'advanced',
+    timeLimit: 420,
+    points: 28,
+    options: [
+      'All three SUMPRODUCT formulas work correctly with proper syntax and logic',
+      'Two formulas correct, one has minor errors or missing conditions',
+      'One formula correct, others have significant errors or wrong approach',
+      'SUMPRODUCT not used correctly or formulas non-functional'
+    ]
+  },
+  {
+    id: 'excel-9',
+    type: 'excel',
+    title: 'Macro Recording and Basic VBA',
+    description: 'Record a macro to automate repetitive formatting tasks.',
+    instruction: 'Record a macro that: 1) Formats selected range with borders and bold headers, 2) Applies currency format to columns C:E, 3) Auto-fits column widths, 4) Assigns macro to a button.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 24,
+    options: [
+      'Macro recorded successfully, performs all formatting tasks, button works correctly',
+      'Macro performs most tasks but missing one formatting element or button issues',
+      'Basic macro recorded but incomplete formatting or execution problems',
+      'Macro recording unsuccessful or major functionality missing'
+    ]
+  },
+  {
+    id: 'excel-10',
+    type: 'excel',
+    title: 'Power Query Data Import',
+    description: 'Use Power Query to import and transform data from external source.',
+    instruction: 'Import data from CSV file using Power Query. Clean data by: 1) Removing duplicate rows, 2) Split "Full Name" column into "First Name" and "Last Name", 3) Convert "Date" column to proper date format, 4) Filter out blank entries.',
+    difficulty: 'advanced',
+    timeLimit: 540,
+    points: 32,
+    options: [
+      'Power Query successfully imports, transforms, and cleans data with all requirements met',
+      'Data imported and most transformations applied but missing one or two steps',
+      'Basic import successful but data cleaning incomplete or has errors',
+      'Power Query not used properly or major import/transformation failures'
+    ]
+  },
+  {
+    id: 'excel-11',
+    type: 'excel',
+    title: 'Financial Functions - PMT and NPV',
+    description: 'Create financial calculations using PMT, NPV, and IRR functions.',
+    instruction: 'Build loan analysis: 1) Calculate monthly payment using PMT for $50000 loan at 6% for 5 years, 2) Calculate NPV of investment with cash flows in B2:B7, discount rate 8%, 3) Find IRR for same cash flows.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 25,
+    options: [
+      'All financial functions (PMT, NPV, IRR) calculated correctly with proper syntax',
+      'Two functions correct, one has minor calculation or syntax errors',
+      'One function correct, others have significant errors or wrong parameters',
+      'Financial functions not used correctly or results are incorrect'
+    ]
+  },
+  {
+    id: 'excel-12',
+    type: 'excel',
+    title: 'What-If Analysis Data Table',
+    description: 'Create one-variable and two-variable data tables for sensitivity analysis.',
+    instruction: 'Create data tables to analyze loan payments: 1) One-variable table showing payment changes for interest rates 4%-8%, 2) Two-variable table showing payments for different loan amounts ($40k-$60k) and terms (3-7 years).',
+    difficulty: 'advanced',
+    timeLimit: 480,
+    points: 30,
+    options: [
+      'Both data tables created correctly, show proper sensitivity analysis with all variables',
+      'One data table perfect, second has minor setup or calculation issues',
+      'Basic data table structure but missing variables or incorrect calculations',
+      'Data tables not created properly or major calculation errors'
+    ]
+  },
+  {
+    id: 'excel-13',
+    type: 'excel',
+    title: 'Advanced Filtering and Sorting',
+    description: 'Use advanced filtering techniques with multiple criteria.',
+    instruction: 'Apply advanced filter to data range A1:F100: 1) Show records where Region="West" OR "East", 2) Sales >$5000, 3) Date between 1/1/2024 and 6/30/2024, 4) Copy results to starting cell H1.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'Advanced filter applied correctly with all criteria, results copied to specified location',
+      'Filter works with most criteria but missing one condition or copy location issue',
+      'Basic filtering applied but criteria setup incorrect or incomplete',
+      'Advanced filter not used properly or results show wrong data'
+    ]
+  },
+  {
+    id: 'excel-14',
+    type: 'excel',
+    title: 'Sparklines and Mini Charts',
+    description: 'Create sparklines to show data trends in cells.',
+    instruction: 'In column F, create sparklines for sales data in B2:E20 (each row gets its own sparkline). Use column type, customize with high/low points marked, set uniform scale, add custom colors.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 18,
+    options: [
+      'Sparklines created correctly for each row, customized with markers and uniform scale',
+      'Sparklines present but missing some customization like markers or scaling',
+      'Basic sparklines created but minimal customization applied',
+      'Sparklines not created properly or major display issues'
+    ]
+  },
+  {
+    id: 'excel-15',
+    type: 'excel',
+    title: 'Worksheet Protection and Security',
+    description: 'Implement worksheet protection with selective cell access.',
+    instruction: 'Protect worksheet allowing users to: 1) Edit only cells C2:E20, 2) Use dropdown lists in column B, 3) Sort data in range A1:F20, 4) Set password "MOS2024", 5) Allow inserting rows.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 24,
+    options: [
+      'Worksheet protection set correctly with all specified permissions and password',
+      'Protection applied but missing one or two permission settings',
+      'Basic protection but several permission settings incorrect or missing password',
+      'Protection not applied correctly or users cannot access allowed areas'
     ]
   }
 ];
@@ -418,81 +658,241 @@ export const powerpointQuestionsEn: TestQuestion[] = [
   {
     id: 'ppt-1',
     type: 'powerpoint',
-    title: 'Professional Presentation Design',
-    description: 'Create a cohesive presentation design using themes, layouts, and consistent formatting.',
-    instruction: 'Apply the "Facet" design theme and change the color scheme to "Blue Warm". Create a title slide, agenda slide, and 3 content slides using appropriate layouts. Ensure consistent font sizing, bullet styles, and slide transitions throughout.',
-    difficulty: 'beginner',
-    timeLimit: 360,
-    points: 18,
+    title: 'Master Slide Layout with Corporate Branding',
+    description: 'Design a custom slide master with consistent corporate branding elements.',
+    instruction: 'Create a slide master with: 1) Company logo in top-left corner, 2) Date/time placeholder in top-right, 3) Custom color scheme using blue (#0078D4) and gray (#666666), 4) Calibri font for titles, Arial for content, 5) Footer with slide numbers.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 24,
     options: [
-      'Applied theme correctly with consistent formatting and appropriate layouts',
-      'Good theme application but some inconsistency in formatting',
-      'Basic theme applied but poor layout choices or formatting issues',
-      'Attempted design changes but minimal consistency or professional appearance'
+      'Complete slide master with all branding elements, colors, and fonts correctly applied',
+      'Most branding elements present but missing one or two specifications',
+      'Basic slide master but inconsistent branding or incorrect fonts/colors',
+      'Slide master created but major branding elements missing or incorrect'
     ]
   },
   {
     id: 'ppt-2',
     type: 'powerpoint',
-    title: 'Advanced Animation and Transitions',
-    description: 'Implement sophisticated animations and transitions to enhance presentation flow.',
-    instruction: 'Add "Morph" transitions between slides. Create custom animation sequences: title flies in from left, bullets appear one by one with "Fade" effect, and images zoom in with sound effects. Set animation triggers and timing for professional delivery.',
+    title: 'Advanced Animation Sequence',
+    description: 'Create complex animation sequences with precise timing and triggers.',
+    instruction: 'On slide 2: 1) Title flies in from left (0.5s duration), 2) Bullet points appear one by one with 0.25s intervals, 3) Image zooms in with bounce effect, 4) Chart bars grow individually with 0.1s delays, 5) Add click triggers for each animation group.',
     difficulty: 'advanced',
     timeLimit: 480,
-    points: 25,
+    points: 30,
     options: [
-      'Complex animation sequences with proper timing and professional triggers',
-      'Good animations but missing some timing or trigger elements',
-      'Basic animations applied but inconsistent or poorly timed',
-      'Attempted animations but minimal functionality or poor execution'
+      'All animations perfectly sequenced with correct timing, effects, and triggers',
+      'Most animations correct but minor timing issues or missing one trigger',
+      'Basic animations present but sequencing or timing problems',
+      'Animations attempted but poor execution or major timing issues'
     ]
   },
   {
     id: 'ppt-3',
     type: 'powerpoint',
-    title: 'Slide Master Customization',
-    description: 'Design custom slide masters and layouts for brand consistency.',
-    instruction: 'Access Slide Master view and customize the master slide with company logo, specific fonts (Calibri for headings, Arial for body), and color scheme. Create a custom layout for "Quote" slides with special formatting. Apply watermarks and ensure all slides inherit the master design.',
+    title: 'Interactive Presentation with Hyperlinks',
+    description: 'Build an interactive presentation with navigation and hyperlinks.',
+    instruction: 'Create: 1) Main menu slide with buttons linking to 4 sections, 2) "Back to Menu" buttons on each section slide, 3) Hyperlink to external website in footer, 4) Action buttons for Previous/Next navigation, 5) Mouse-over effects on all buttons.',
     difficulty: 'advanced',
     timeLimit: 540,
-    points: 28,
+    points: 32,
     options: [
-      'Complete slide master customization with custom layouts and consistent branding',
-      'Good master slide setup but missing some custom elements',
-      'Basic master slide changes but incomplete customization',
-      'Attempted slide master work but minimal customization achieved'
+      'Fully interactive presentation with all hyperlinks, action buttons, and hover effects working',
+      'Most interactive elements work but missing one or two hyperlinks/effects',
+      'Basic interactivity but some navigation issues or missing hover effects',
+      'Attempted interactivity but major navigation problems or broken links'
     ]
   },
   {
     id: 'ppt-4',
     type: 'powerpoint',
-    title: 'Multimedia Integration',
-    description: 'Integrate various multimedia elements including audio, video, and interactive content.',
-    instruction: 'Insert and format a video clip with custom playback options and trim timing. Add background audio that plays across multiple slides. Insert interactive hyperlinks to other slides and external websites. Create action buttons for navigation.',
+    title: 'Data Visualization Dashboard',
+    description: 'Create a data-rich slide with multiple chart types and callouts.',
+    instruction: 'Insert: 1) Clustered column chart showing quarterly sales, 2) Pie chart for market share breakdown, 3) Line chart for trend analysis, 4) Add data labels and custom colors, 5) Insert callout boxes highlighting key insights, 6) Format with consistent styling.',
     difficulty: 'intermediate',
-    timeLimit: 420,
-    points: 22,
+    timeLimit: 360,
+    points: 26,
     options: [
-      'Successfully integrated all multimedia with proper formatting and functionality',
-      'Good multimedia integration but missing some interactive elements',
-      'Basic multimedia added but incomplete formatting or functionality',
-      'Attempted multimedia integration but minimal success'
+      'All charts created with proper data, formatting, callouts, and consistent styling',
+      'Charts present with good formatting but missing some callouts or styling inconsistencies',
+      'Basic charts created but limited formatting or poor callout placement',
+      'Charts attempted but major formatting issues or missing callouts'
     ]
   },
   {
     id: 'ppt-5',
     type: 'powerpoint',
-    title: 'Data Visualization and SmartArt',
-    description: 'Create compelling data visualizations using charts, SmartArt, and infographics.',
-    instruction: 'Insert and format a column chart with custom colors and data labels. Create a SmartArt process diagram showing a 5-step workflow. Design an infographic-style slide using shapes, icons, and text boxes with consistent styling and professional layout.',
+    title: 'Multimedia Integration and Timing',
+    description: 'Integrate audio, video, and images with synchronized timing.',
+    instruction: 'Add: 1) Background audio (loop for entire presentation), 2) Video clip with custom start/end points, 3) Image slideshow with fade transitions, 4) Narration recording for one slide, 5) Synchronize all multimedia elements with slide timing.',
+    difficulty: 'advanced',
+    timeLimit: 600,
+    points: 35,
+    options: [
+      'All multimedia elements integrated perfectly with proper timing and synchronization',
+      'Most multimedia works but minor timing issues or one element not synchronized',
+      'Basic multimedia integration but significant timing problems',
+      'Multimedia attempted but major playback or synchronization failures'
+    ]
+  },
+  {
+    id: 'ppt-6',
+    type: 'powerpoint',
+    title: 'SmartArt Process Diagram',
+    description: 'Create and customize SmartArt graphics for process visualization.',
+    instruction: 'Create: 1) Process SmartArt showing 6-step workflow, 2) Customize colors to match presentation theme, 3) Add descriptive text to each step, 4) Resize and position appropriately, 5) Apply 3D effects and shadows, 6) Animate each step individually.',
     difficulty: 'intermediate',
-    timeLimit: 480,
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'SmartArt fully customized with proper text, colors, effects, and individual animations',
+      'Good SmartArt customization but missing some effects or animation issues',
+      'Basic SmartArt created but limited customization or poor formatting',
+      'SmartArt attempted but minimal customization or major formatting problems'
+    ]
+  },
+  {
+    id: 'ppt-7',
+    type: 'powerpoint',
+    title: 'Slide Transition Effects',
+    description: 'Apply sophisticated slide transitions with sound and timing controls.',
+    instruction: 'Apply transitions: 1) "Morph" between similar slides, 2) "Push" for section transitions, 3) "Fade" for conclusion slides, 4) Add transition sounds where appropriate, 5) Set automatic timing (8 seconds per slide), 6) Create smooth flow between all slides.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 18,
+    options: [
+      'All transitions applied correctly with appropriate sounds and perfect timing',
+      'Most transitions correct but minor timing issues or missing some sounds',
+      'Basic transitions applied but inconsistent or poor timing choices',
+      'Transitions attempted but major timing problems or inappropriate effects'
+    ]
+  },
+  {
+    id: 'ppt-8',
+    type: 'powerpoint',
+    title: 'Custom Layout and Text Formatting',
+    description: 'Design custom slide layouts with advanced text formatting.',
+    instruction: 'Create: 1) Two-column layout with image and bullet list, 2) Apply custom bullet styles (symbols and numbering), 3) Use text effects (shadows, gradients, outlines), 4) Implement consistent paragraph spacing, 5) Add text boxes with callout formatting.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
     points: 24,
     options: [
-      'Excellent data visualization with professional formatting and design',
-      'Good charts and SmartArt but missing some formatting details',
-      'Basic data visualization but incomplete or poor design choices',
-      'Attempted visualization but minimal professional appearance'
+      'Custom layouts with perfect text formatting, effects, and consistent styling throughout',
+      'Good layout and formatting but minor inconsistencies or missing one text effect',
+      'Basic custom layout but limited text formatting or spacing issues',
+      'Layout attempted but poor text formatting or major inconsistencies'
+    ]
+  },
+  {
+    id: 'ppt-9',
+    type: 'powerpoint',
+    title: 'Presenter View and Notes Setup',
+    description: 'Configure presenter tools and add comprehensive speaker notes.',
+    instruction: 'Setup: 1) Add detailed speaker notes for each slide (50+ words), 2) Configure Presenter View layout, 3) Add slide thumbnails for quick navigation, 4) Set up timer and rehearsal timing, 5) Create backup slides and hide them, 6) Test presenter view functionality.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 26,
+    options: [
+      'Complete presenter setup with detailed notes, proper configuration, and all tools working',
+      'Good presenter setup but missing some notes or minor configuration issues',
+      'Basic presenter tools configured but limited notes or setup problems',
+      'Presenter features attempted but major configuration or functionality issues'
+    ]
+  },
+  {
+    id: 'ppt-10',
+    type: 'powerpoint',
+    title: 'Template Creation and Themes',
+    description: 'Create a custom presentation template with theme variations.',
+    instruction: 'Design: 1) Custom theme with 3 color variants, 2) 5 different slide layouts (title, content, comparison, image, conclusion), 3) Custom font scheme, 4) Background graphics and watermarks, 5) Save as PowerPoint template (.potx), 6) Test template functionality.',
+    difficulty: 'advanced',
+    timeLimit: 540,
+    points: 34,
+    options: [
+      'Complete custom template with all layouts, themes, and variations working perfectly',
+      'Good template design but missing one layout or minor theme variation issues',
+      'Basic template created but limited layouts or theme customization',
+      'Template attempted but major design issues or functionality problems'
+    ]
+  },
+  {
+    id: 'ppt-11',
+    type: 'powerpoint',
+    title: 'Collaboration and Review Features',
+    description: 'Use PowerPoint collaboration tools for team review and feedback.',
+    instruction: 'Implement: 1) Add comments to specific slides and elements, 2) Track changes and revisions, 3) Share presentation with review permissions, 4) Set up co-authoring access, 5) Compare presentation versions, 6) Accept/reject suggested changes.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'All collaboration features used correctly with proper commenting and change tracking',
+      'Most collaboration tools used but missing some review features or access settings',
+      'Basic collaboration setup but limited use of review tools',
+      'Collaboration attempted but major issues with sharing or review functionality'
+    ]
+  },
+  {
+    id: 'ppt-12',
+    type: 'powerpoint',
+    title: 'Advanced Chart Customization',
+    description: 'Create and heavily customize charts with advanced formatting options.',
+    instruction: 'Create: 1) Combination chart (column and line), 2) Custom data labels with leader lines, 3) Gradient fills and custom colors, 4) Secondary axis for different data scales, 5) Interactive chart elements with hyperlinks, 6) Custom chart templates.',
+    difficulty: 'advanced',
+    timeLimit: 480,
+    points: 30,
+    options: [
+      'Advanced chart with all customizations, perfect formatting, and interactive elements',
+      'Good chart customization but missing some advanced features or minor formatting issues',
+      'Basic chart with some customization but limited advanced features',
+      'Chart created but minimal customization or major formatting problems'
+    ]
+  },
+  {
+    id: 'ppt-13',
+    type: 'powerpoint',
+    title: 'Infographic Design Elements',
+    description: 'Design an infographic-style slide using shapes, icons, and data visualization.',
+    instruction: 'Create: 1) Custom shapes for data containers, 2) Icon-based process flow, 3) Statistics with large numbers and descriptive text, 4) Color-coded sections with consistent theme, 5) Visual hierarchy using size and positioning, 6) Professional infographic layout.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 28,
+    options: [
+      'Professional infographic with excellent visual hierarchy, icons, and data presentation',
+      'Good infographic design but minor layout issues or inconsistent theming',
+      'Basic infographic elements but poor visual hierarchy or limited customization',
+      'Infographic attempted but major design problems or poor data visualization'
+    ]
+  },
+  {
+    id: 'ppt-14',
+    type: 'powerpoint',
+    title: 'Slide Show Setup and Delivery',
+    description: 'Configure presentation for optimal delivery and audience interaction.',
+    instruction: 'Configure: 1) Slide show settings (loop, manual advance), 2) Kiosk mode for self-running presentation, 3) Hide slides for different audience types, 4) Set up laser pointer and pen tools, 5) Configure multiple monitor support, 6) Create custom show variations.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 20,
+    options: [
+      'Complete slide show configuration with all delivery settings optimized',
+      'Good show setup but missing some configuration options or minor issues',
+      'Basic slide show settings but limited optimization for delivery',
+      'Show configuration attempted but major setup problems or missing features'
+    ]
+  },
+  {
+    id: 'ppt-15',
+    type: 'powerpoint',
+    title: 'Export and Sharing Options',
+    description: 'Export presentation in multiple formats and configure sharing settings.',
+    instruction: 'Export: 1) PDF with notes pages, 2) Video format (MP4) with timing, 3) Handouts (3 slides per page), 4) Individual slides as images, 5) Set up OneDrive sharing with editing permissions, 6) Create presentation package for CD/USB.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 24,
+    options: [
+      'All export formats completed successfully with proper settings and sharing configured',
+      'Most exports successful but minor formatting issues or one sharing problem',
+      'Basic exports completed but limited format options or sharing issues',
+      'Export attempted but major formatting problems or sharing failures'
     ]
   }
 ];
@@ -501,81 +901,241 @@ export const powerpointQuestionsVi: TestQuestion[] = [
   {
     id: 'ppt-1',
     type: 'powerpoint',
-    title: 'Thiết kế Bài thuyết trình Chuyên nghiệp',
-    description: 'Tạo thiết kế bài thuyết trình nhất quán sử dụng chủ đề, bố cục và định dạng thống nhất.',
-    instruction: 'Áp dụng chủ đề thiết kế "Facet" và thay đổi bảng màu thành "Blue Warm". Tạo slide tiêu đề, slide chương trình nghị sự và 3 slide nội dung sử dụng bố cục phù hợp. Đảm bảo kích thước phông chữ nhất quán, kiểu đầu dòng và chuyển tiếp slide xuyên suốt.',
-    difficulty: 'beginner',
-    timeLimit: 360,
-    points: 18,
+    title: 'Thiết kế Slide Master với Thương hiệu Doanh nghiệp',
+    description: 'Thiết kế slide master tùy chỉnh với các yếu tố thương hiệu doanh nghiệp nhất quán.',
+    instruction: 'Tạo slide master với: 1) Logo công ty ở góc trên-trái, 2) Placeholder ngày/giờ ở góc trên-phải, 3) Bảng màu tùy chỉnh dùng xanh (#0078D4) và xám (#666666), 4) Font Calibri cho tiêu đề, Arial cho nội dung, 5) Footer với số slide.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 24,
     options: [
-      'Áp dụng chủ đề chính xác với định dạng nhất quán và bố cục phù hợp',
-      'Ứng dụng chủ đề tốt nhưng có một số không nhất quán trong định dạng',
-      'Chủ đề cơ bản được áp dụng nhưng lựa chọn bố cục kém hoặc vấn đề định dạng',
-      'Thử thay đổi thiết kế nhưng tính nhất quán tối thiểu hoặc xuất hiện chuyên nghiệp'
+      'Hoàn thành slide master với tất cả yếu tố thương hiệu, màu sắc và font chính xác',
+      'Có hầu hết yếu tố thương hiệu nhưng thiếu một hoặc hai thông số',
+      'Slide master cơ bản nhưng thương hiệu không nhất quán hoặc font/màu sai',
+      'Đã tạo slide master nhưng thiếu hoặc sai các yếu tố thương hiệu chính'
     ]
   },
   {
     id: 'ppt-2',
     type: 'powerpoint',
-    title: 'Hoạt ảnh và Chuyển tiếp Nâng cao',
-    description: 'Triển khai hoạt ảnh và chuyển tiếp tinh vi để tăng cường luồng bài thuyết trình.',
-    instruction: 'Thêm chuyển tiếp "Morph" giữa các slide. Tạo chuỗi hoạt ảnh tùy chỉnh: tiêu đề bay vào từ trái, các đầu dòng xuất hiện từng cái một với hiệu ứng "Fade", và hình ảnh phóng to với hiệu ứng âm thanh. Đặt kích hoạt hoạt ảnh và thời gian cho việc trình bày chuyên nghiệp.',
+    title: 'Chuỗi Animation Nâng cao',
+    description: 'Tạo chuỗi animation phức tạp với thời gian và triggers chính xác.',
+    instruction: 'Trên slide 2: 1) Tiêu đề bay vào từ trái (0.5s), 2) Bullet points xuất hiện từng cái với khoảng cách 0.25s, 3) Hình ảnh zoom với hiệu ứng bounce, 4) Thanh biểu đồ tăng trưởng từng cái với delay 0.1s, 5) Thêm click triggers cho mỗi nhóm animation.',
     difficulty: 'advanced',
     timeLimit: 480,
-    points: 25,
+    points: 30,
     options: [
-      'Chuỗi hoạt ảnh phức tạp với thời gian phù hợp và kích hoạt chuyên nghiệp',
-      'Hoạt ảnh tốt nhưng thiếu một số yếu tố thời gian hoặc kích hoạt',
-      'Hoạt ảnh cơ bản được áp dụng nhưng không nhất quán hoặc thời gian kém',
-      'Thử hoạt ảnh nhưng chức năng tối thiểu hoặc thực hiện kém'
+      'Tất cả animations hoàn hảo với thời gian, hiệu ứng và triggers chính xác',
+      'Hầu hết animations đúng nhưng có vấn đề nhỏ về thời gian hoặc thiếu trigger',
+      'Animations cơ bản nhưng có vấn đề về trình tự hoặc thời gian',
+      'Đã thử animations nhưng thực hiện kém hoặc có vấn đề lớn về thời gian'
     ]
   },
   {
     id: 'ppt-3',
     type: 'powerpoint',
-    title: 'Tùy chỉnh Slide Master',
-    description: 'Thiết kế slide master và bố cục tùy chỉnh để đảm bảo tính nhất quán thương hiệu.',
-    instruction: 'Truy cập chế độ xem Slide Master và tùy chỉnh slide chính với logo công ty, phông chữ cụ thể (Calibri cho tiêu đề, Arial cho nội dung) và bảng màu. Tạo bố cục tùy chỉnh cho slide "Trích dẫn" với định dạng đặc biệt. Áp dụng hình chìm nước và đảm bảo tất cả slide kế thừa thiết kế chính.',
+    title: 'Presentation Tương tác với Hyperlinks',
+    description: 'Xây dựng presentation tương tác với navigation và hyperlinks.',
+    instruction: 'Tạo: 1) Slide menu chính với buttons link đến 4 phần, 2) Buttons "Về Menu" trên mỗi slide phần, 3) Hyperlink đến website bên ngoài ở footer, 4) Action buttons cho navigation Trước/Sau, 5) Hiệu ứng mouse-over trên tất cả buttons.',
     difficulty: 'advanced',
     timeLimit: 540,
-    points: 28,
+    points: 32,
     options: [
-      'Tùy chỉnh slide master hoàn chỉnh với bố cục tùy chỉnh và thương hiệu nhất quán',
-      'Thiết lập slide chính tốt nhưng thiếu một số yếu tố tùy chỉnh',
-      'Thay đổi slide chính cơ bản nhưng tùy chỉnh không hoàn chỉnh',
-      'Thử làm việc với slide master nhưng đạt được tùy chỉnh tối thiểu'
+      'Presentation hoàn toàn tương tác với tất cả hyperlinks, action buttons và hover effects hoạt động',
+      'Hầu hết yếu tố tương tác hoạt động nhưng thiếu một vài hyperlinks/effects',
+      'Tương tác cơ bản nhưng có vấn đề navigation hoặc thiếu hover effects',
+      'Đã thử tương tác nhưng có vấn đề lớn về navigation hoặc links hỏng'
     ]
   },
   {
     id: 'ppt-4',
     type: 'powerpoint',
-    title: 'Tích hợp Đa phương tiện',
-    description: 'Tích hợp các yếu tố đa phương tiện khác nhau bao gồm âm thanh, video và nội dung tương tác.',
-    instruction: 'Chèn và định dạng clip video với tùy chọn phát lại tùy chỉnh và cắt thời gian. Thêm âm thanh nền phát qua nhiều slide. Chèn liên kết tương tác đến các slide khác và trang web bên ngoài. Tạo nút hành động để điều hướng.',
+    title: 'Dashboard Trực quan hóa Dữ liệu',
+    description: 'Tạo slide giàu dữ liệu với nhiều loại biểu đồ và callouts.',
+    instruction: 'Chèn: 1) Biểu đồ cột clustered hiển thị doanh số theo quý, 2) Biểu đồ tròn cho phần chia thị trường, 3) Biểu đồ đường cho phân tích xu hướng, 4) Thêm nhãn dữ liệu và màu tùy chỉnh, 5) Chèn callout boxes nổi bật insights chính, 6) Format với styling nhất quán.',
     difficulty: 'intermediate',
-    timeLimit: 420,
-    points: 22,
+    timeLimit: 360,
+    points: 26,
     options: [
-      'Tích hợp thành công tất cả đa phương tiện với định dạng và chức năng phù hợp',
-      'Tích hợp đa phương tiện tốt nhưng thiếu một số yếu tố tương tác',
-      'Đa phương tiện cơ bản được thêm nhưng định dạng hoặc chức năng không hoàn chỉnh',
-      'Thử tích hợp đa phương tiện nhưng thành công tối thiểu'
+      'Tất cả biểu đồ tạo với dữ liệu, formatting, callouts và styling nhất quán đúng',
+      'Biểu đồ có với formatting tốt nhưng thiếu callouts hoặc styling không nhất quán',
+      'Biểu đồ cơ bản được tạo nhưng formatting hạn chế hoặc callouts đặt kém',
+      'Đã thử biểu đồ nhưng có vấn đề lớn về formatting hoặc thiếu callouts'
     ]
   },
   {
     id: 'ppt-5',
     type: 'powerpoint',
-    title: 'Trực quan hóa Dữ liệu và SmartArt',
-    description: 'Tạo trực quan hóa dữ liệu hấp dẫn sử dụng biểu đồ, SmartArt và infographic.',
-    instruction: 'Chèn và định dạng biểu đồ cột với màu sắc tùy chỉnh và nhãn dữ liệu. Tạo sơ đồ quy trình SmartArt hiển thị quy trình làm việc 5 bước. Thiết kế slide kiểu infographic sử dụng hình dạng, biểu tượng và hộp văn bản với kiểu dáng nhất quán và bố cục chuyên nghiệp.',
+    title: 'Tích hợp Multimedia và Timing',
+    description: 'Tích hợp audio, video, và hình ảnh với thời gian đồng bộ.',
+    instruction: 'Thêm: 1) Audio nền (loop cho toàn presentation), 2) Video clip với điểm bắt đầu/kết thúc tùy chỉnh, 3) Slideshow hình ảnh với fade transitions, 4) Recording narration cho một slide, 5) Đồng bộ tất cả multimedia với timing slide.',
+    difficulty: 'advanced',
+    timeLimit: 600,
+    points: 35,
+    options: [
+      'Tất cả yếu tố multimedia tích hợp hoàn hảo với timing và đồng bộ đúng',
+      'Hầu hết multimedia hoạt động nhưng có vấn đề nhỏ về timing hoặc một yếu tố không đồng bộ',
+      'Tích hợp multimedia cơ bản nhưng có vấn đề lớn về timing',
+      'Đã thử multimedia nhưng playback hoặc đồng bộ thất bại lớn'
+    ]
+  },
+  {
+    id: 'ppt-6',
+    type: 'powerpoint',
+    title: 'Sơ đồ Quy trình SmartArt',
+    description: 'Tạo và tùy chỉnh đồ họa SmartArt để trực quan hóa quy trình.',
+    instruction: 'Tạo: 1) SmartArt quy trình hiển thị workflow 6 bước, 2) Tùy chỉnh màu sắc phù hợp theme presentation, 3) Thêm text mô tả cho mỗi bước, 4) Resize và định vị phù hợp, 5) Áp dụng hiệu ứng 3D và shadows, 6) Animate từng bước riêng lẻ.',
     difficulty: 'intermediate',
-    timeLimit: 480,
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'SmartArt hoàn toàn tùy chỉnh với text, màu sắc, hiệu ứng và animations riêng lẻ đúng',
+      'Tùy chỉnh SmartArt tốt nhưng thiếu hiệu ứng hoặc có vấn đề animation',
+      'SmartArt cơ bản được tạo nhưng tùy chỉnh hạn chế hoặc formatting kém',
+      'Đã thử SmartArt nhưng tùy chỉnh tối thiểu hoặc có vấn đề lớn về formatting'
+    ]
+  },
+  {
+    id: 'ppt-7',
+    type: 'powerpoint',
+    title: 'Hiệu ứng Chuyển tiếp Slide',
+    description: 'Áp dụng chuyển tiếp slide phức tạp với âm thanh và điều khiển timing.',
+    instruction: 'Áp dụng chuyển tiếp: 1) "Morph" giữa các slides tương tự, 2) "Push" cho chuyển tiếp phần, 3) "Fade" cho slides kết luận, 4) Thêm âm thanh chuyển tiếp phù hợp, 5) Đặt timing tự động (8 giây mỗi slide), 6) Tạo luồng mượt giữa tất cả slides.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 18,
+    options: [
+      'Tất cả chuyển tiếp áp dụng đúng với âm thanh phù hợp và timing hoàn hảo',
+      'Hầu hết chuyển tiếp đúng nhưng có vấn đề nhỏ về timing hoặc thiếu âm thanh',
+      'Chuyển tiếp cơ bản được áp dụng nhưng không nhất quán hoặc chọn timing kém',
+      'Đã thử chuyển tiếp nhưng có vấn đề lớn về timing hoặc hiệu ứng không phù hợp'
+    ]
+  },
+  {
+    id: 'ppt-8',
+    type: 'powerpoint',
+    title: 'Layout Tùy chỉnh và Formatting Text',
+    description: 'Thiết kế layouts slide tùy chỉnh với formatting text nâng cao.',
+    instruction: 'Tạo: 1) Layout hai cột với hình ảnh và danh sách bullet, 2) Áp dụng styles bullet tùy chỉnh (ký hiệu và đánh số), 3) Dùng hiệu ứng text (shadows, gradients, outlines), 4) Thực hiện khoảng cách đoạn văn nhất quán, 5) Thêm text boxes với formatting callout.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
     points: 24,
     options: [
-      'Trực quan hóa dữ liệu xuất sắc với định dạng chuyên nghiệp và thiết kế',
-      'Biểu đồ và SmartArt tốt nhưng thiếu một số chi tiết định dạng',
-      'Trực quan hóa dữ liệu cơ bản nhưng lựa chọn thiết kế không hoàn chỉnh hoặc kém',
-      'Thử trực quan hóa nhưng xuất hiện chuyên nghiệp tối thiểu'
+      'Layouts tùy chỉnh với formatting text hoàn hảo, hiệu ứng và styling nhất quán',
+      'Layout và formatting tốt nhưng có sự không nhất quán nhỏ hoặc thiếu một hiệu ứng text',
+      'Layout tùy chỉnh cơ bản nhưng formatting text hạn chế hoặc có vấn đề khoảng cách',
+      'Đã thử layout nhưng formatting text kém hoặc có sự không nhất quán lớn'
+    ]
+  },
+  {
+    id: 'ppt-9',
+    type: 'powerpoint',
+    title: 'Thiết lập Presenter View và Notes',
+    description: 'Cấu hình công cụ presenter và thêm ghi chú diễn giả toàn diện.',
+    instruction: 'Thiết lập: 1) Thêm ghi chú diễn giả chi tiết cho mỗi slide (50+ từ), 2) Cấu hình layout Presenter View, 3) Thêm thumbnails slide để navigation nhanh, 4) Thiết lập timer và rehearsal timing, 5) Tạo backup slides và ẩn chúng, 6) Test chức năng presenter view.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 26,
+    options: [
+      'Thiết lập presenter hoàn chỉnh với ghi chú chi tiết, cấu hình đúng và tất cả công cụ hoạt động',
+      'Thiết lập presenter tốt nhưng thiếu ghi chú hoặc có vấn đề cấu hình nhỏ',
+      'Công cụ presenter cơ bản được cấu hình nhưng ghi chú hạn chế hoặc có vấn đề thiết lập',
+      'Đã thử tính năng presenter nhưng có vấn đề lớn về cấu hình hoặc chức năng'
+    ]
+  },
+  {
+    id: 'ppt-10',
+    type: 'powerpoint',
+    title: 'Tạo Template và Themes',
+    description: 'Tạo template presentation tùy chỉnh với biến thể theme.',
+    instruction: 'Thiết kế: 1) Theme tùy chỉnh với 3 biến thể màu, 2) 5 layouts slide khác nhau (title, content, comparison, image, conclusion), 3) Font scheme tùy chỉnh, 4) Đồ họa nền và watermarks, 5) Lưu dưới dạng PowerPoint template (.potx), 6) Test chức năng template.',
+    difficulty: 'advanced',
+    timeLimit: 540,
+    points: 34,
+    options: [
+      'Template tùy chỉnh hoàn chỉnh với tất cả layouts, themes và biến thể hoạt động hoàn hảo',
+      'Thiết kế template tốt nhưng thiếu một layout hoặc có vấn đề nhỏ về biến thể theme',
+      'Template cơ bản được tạo nhưng layouts hạn chế hoặc tùy chỉnh theme ít',
+      'Đã thử template nhưng có vấn đề lớn về thiết kế hoặc chức năng'
+    ]
+  },
+  {
+    id: 'ppt-11',
+    type: 'powerpoint',
+    title: 'Tính năng Cộng tác và Review',
+    description: 'Sử dụng công cụ cộng tác PowerPoint để review và feedback nhóm.',
+    instruction: 'Thực hiện: 1) Thêm comments cho slides và elements cụ thể, 2) Track changes và revisions, 3) Share presentation với quyền review, 4) Thiết lập co-authoring access, 5) So sánh versions presentation, 6) Accept/reject các thay đổi đề xuất.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'Tất cả tính năng cộng tác sử dụng đúng với commenting và change tracking phù hợp',
+      'Hầu hết công cụ cộng tác được dùng nhưng thiếu tính năng review hoặc cài đặt access',
+      'Thiết lập cộng tác cơ bản nhưng sử dụng công cụ review hạn chế',
+      'Đã thử cộng tác nhưng có vấn đề lớn về sharing hoặc chức năng review'
+    ]
+  },
+  {
+    id: 'ppt-12',
+    type: 'powerpoint',
+    title: 'Tùy chỉnh Biểu đồ Nâng cao',
+    description: 'Tạo và tùy chỉnh mạnh biểu đồ với tùy chọn formatting nâng cao.',
+    instruction: 'Tạo: 1) Biểu đồ kết hợp (cột và đường), 2) Nhãn dữ liệu tùy chỉnh với leader lines, 3) Gradient fills và màu tùy chỉnh, 4) Trục phụ cho scales dữ liệu khác nhau, 5) Elements biểu đồ tương tác với hyperlinks, 6) Templates biểu đồ tùy chỉnh.',
+    difficulty: 'advanced',
+    timeLimit: 480,
+    points: 30,
+    options: [
+      'Biểu đồ nâng cao với tất cả tùy chỉnh, formatting hoàn hảo và elements tương tác',
+      'Tùy chỉnh biểu đồ tốt nhưng thiếu tính năng nâng cao hoặc có vấn đề formatting nhỏ',
+      'Biểu đồ cơ bản với tùy chỉnh ít nhưng tính năng nâng cao hạn chế',
+      'Biểu đồ được tạo nhưng tùy chỉnh tối thiểu hoặc có vấn đề lớn về formatting'
+    ]
+  },
+  {
+    id: 'ppt-13',
+    type: 'powerpoint',
+    title: 'Elements Thiết kế Infographic',
+    description: 'Thiết kế slide kiểu infographic sử dụng shapes, icons và trực quan hóa dữ liệu.',
+    instruction: 'Tạo: 1) Shapes tùy chỉnh cho containers dữ liệu, 2) Luồng quy trình dựa trên icons, 3) Thống kê với số lớn và text mô tả, 4) Phần mã hóa màu với theme nhất quán, 5) Phân cấp thị giác bằng size và positioning, 6) Layout infographic chuyên nghiệp.',
+    difficulty: 'intermediate',
+    timeLimit: 420,
+    points: 28,
+    options: [
+      'Infographic chuyên nghiệp với phân cấp thị giác xuất sắc, icons và trình bày dữ liệu',
+      'Thiết kế infographic tốt nhưng có vấn đề layout nhỏ hoặc theming không nhất quán',
+      'Elements infographic cơ bản nhưng phân cấp thị giác kém hoặc tùy chỉnh hạn chế',
+      'Đã thử infographic nhưng có vấn đề lớn về thiết kế hoặc trực quan hóa dữ liệu kém'
+    ]
+  },
+  {
+    id: 'ppt-14',
+    type: 'powerpoint',
+    title: 'Thiết lập và Trình bày Slide Show',
+    description: 'Cấu hình presentation để trình bày tối ưu và tương tác với khán giả.',
+    instruction: 'Cấu hình: 1) Cài đặt slide show (loop, manual advance), 2) Chế độ Kiosk cho presentation tự chạy, 3) Ẩn slides cho các loại khán giả khác nhau, 4) Thiết lập laser pointer và pen tools, 5) Cấu hình hỗ trợ nhiều monitor, 6) Tạo biến thể show tùy chỉnh.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 20,
+    options: [
+      'Cấu hình slide show hoàn chỉnh với tất cả cài đặt trình bày được tối ưu',
+      'Thiết lập show tốt nhưng thiếu tùy chọn cấu hình hoặc có vấn đề nhỏ',
+      'Cài đặt slide show cơ bản nhưng tối ưu hạn chế cho trình bày',
+      'Đã thử cấu hình show nhưng có vấn đề lớn về thiết lập hoặc thiếu tính năng'
+    ]
+  },
+  {
+    id: 'ppt-15',
+    type: 'powerpoint',
+    title: 'Tùy chọn Export và Chia sẻ',
+    description: 'Export presentation trong nhiều formats và cấu hình cài đặt chia sẻ.',
+    instruction: 'Export: 1) PDF với notes pages, 2) Video format (MP4) với timing, 3) Handouts (3 slides mỗi trang), 4) Slides riêng lẻ dưới dạng hình ảnh, 5) Thiết lập OneDrive sharing với quyền editing, 6) Tạo presentation package cho CD/USB.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 24,
+    options: [
+      'Tất cả formats export hoàn thành thành công với cài đặt đúng và sharing được cấu hình',
+      'Hầu hết exports thành công nhưng có vấn đề formatting nhỏ hoặc một vấn đề sharing',
+      'Exports cơ bản hoàn thành nhưng tùy chọn format hạn chế hoặc có vấn đề sharing',
+      'Đã thử export nhưng có vấn đề lớn về formatting hoặc sharing thất bại'
     ]
   }
 ];
@@ -584,81 +1144,241 @@ export const outlookQuestionsEn: TestQuestion[] = [
   {
     id: 'outlook-1',
     type: 'outlook',
-    title: 'Advanced Email Organization',
-    description: 'Set up comprehensive email organization system with folders, rules, and categories.',
-    instruction: 'Create folder structure for Projects, Clients, and Archive. Set up rules to automatically move emails from specific senders to appropriate folders. Create color categories for priority levels and apply them to existing emails. Configure quick steps for common actions.',
+    title: 'Advanced Email Organization System',
+    description: 'Set up comprehensive email management with folders, rules, and automation.',
+    instruction: 'Create: 1) Folder hierarchy (Projects/Active, Projects/Completed, Clients/VIP, Admin/HR), 2) Rules to auto-sort by sender domain and subject keywords, 3) Color categories (Urgent-Red, Follow-up-Yellow, FYI-Blue), 4) Quick Steps for common responses, 5) Search folders for unread high-priority emails.',
     difficulty: 'intermediate',
     timeLimit: 360,
-    points: 20,
+    points: 24,
     options: [
-      'Complete email organization with folders, rules, categories, and quick steps',
-      'Good organization setup but missing some automation features',
-      'Basic folder and rule setup but incomplete categorization',
-      'Attempted organization but minimal functionality achieved'
+      'Complete organization system with all folders, rules, categories, and automation working perfectly',
+      'Good organization setup but missing some automation features or search folders',
+      'Basic folder and rule setup but incomplete categorization or quick steps',
+      'Attempted organization but major functionality missing or not working properly'
     ]
   },
   {
     id: 'outlook-2',
     type: 'outlook',
-    title: 'Calendar Management and Scheduling',
-    description: 'Implement advanced calendar features for efficient time management.',
-    instruction: 'Create recurring meetings with different patterns (weekly team meeting, monthly review, quarterly planning). Set up meeting rooms and resources. Create calendar sharing permissions and delegate access. Set up automatic scheduling and conflict resolution.',
+    title: 'Advanced Calendar and Meeting Management',
+    description: 'Implement sophisticated calendar management with scheduling and resources.',
+    instruction: 'Setup: 1) Recurring meetings (Daily standup, Weekly team, Monthly review), 2) Meeting room booking with resources, 3) Calendar sharing with delegate permissions, 4) Meeting scheduling assistant with availability conflicts, 5) Calendar overlay for multiple calendars, 6) Automatic meeting responses.',
     difficulty: 'advanced',
-    timeLimit: 480,
-    points: 25,
+    timeLimit: 540,
+    points: 32,
     options: [
-      'Advanced calendar setup with all features working correctly',
-      'Good calendar management but missing some advanced features',
-      'Basic calendar setup but incomplete recurring patterns or sharing',
-      'Attempted calendar features but minimal functionality'
+      'Advanced calendar system with all features, sharing, resources, and automation working',
+      'Good calendar management but missing some advanced features or resource booking',
+      'Basic calendar setup but incomplete recurring patterns, sharing, or conflict resolution',
+      'Attempted calendar features but major functionality missing or not working properly'
     ]
   },
   {
     id: 'outlook-3',
     type: 'outlook',
     title: 'Contact Management and Distribution Lists',
-    description: 'Create comprehensive contact management system with groups and distribution lists.',
-    instruction: 'Import contacts from Excel file, create contact groups for different departments, set up distribution lists with automatic membership rules. Create custom contact forms with additional fields and configure contact sharing permissions.',
+    description: 'Build comprehensive contact system with groups and automated distribution.',
+    instruction: 'Create: 1) Import 100+ contacts from Excel with custom fields, 2) Contact groups (Sales Team, Management, Vendors, Customers), 3) Distribution lists with membership rules, 4) Custom contact forms with additional fields, 5) Contact sharing permissions, 6) Business card design and exchange.',
     difficulty: 'intermediate',
     timeLimit: 420,
-    points: 22,
+    points: 26,
     options: [
-      'Complete contact management with groups, distribution lists, and custom forms',
-      'Good contact setup but missing some advanced features',
-      'Basic contact management but incomplete group setup',
-      'Attempted contact features but minimal organization achieved'
+      'Complete contact management with import, groups, distribution lists, and custom forms working',
+      'Good contact setup but missing some advanced features or custom fields',
+      'Basic contact management but incomplete group setup or distribution rules',
+      'Attempted contact features but major organization or functionality issues'
     ]
   },
   {
     id: 'outlook-4',
     type: 'outlook',
-    title: 'Email Templates and Signatures',
-    description: 'Design professional email templates and signature blocks for business communication.',
-    instruction: 'Create email templates for common business scenarios (meeting requests, project updates, client communications). Design HTML signatures with company logo, contact information, and social media links. Set up automatic signature assignment based on account or folder.',
+    title: 'Professional Email Templates and Signatures',
+    description: 'Design business communication templates with branded signatures.',
+    instruction: 'Create: 1) Email templates (Meeting request, Project update, Client proposal, Follow-up), 2) HTML signatures with logo, contact info, social links, 3) Conditional signature assignment by account, 4) Stationery with company branding, 5) Quick Parts for common text blocks, 6) AutoText entries.',
     difficulty: 'intermediate',
     timeLimit: 360,
-    points: 18,
+    points: 22,
     options: [
-      'Professional templates and signatures with HTML formatting and automation',
-      'Good templates and signatures but missing some formatting or automation',
-      'Basic templates created but incomplete signature setup',
-      'Attempted templates but minimal professional appearance'
+      'Professional templates and HTML signatures with full branding and automation working',
+      'Good templates and signatures but missing some formatting or conditional assignment',
+      'Basic templates created but incomplete signature setup or limited branding',
+      'Attempted templates but minimal professional appearance or functionality issues'
     ]
   },
   {
     id: 'outlook-5',
     type: 'outlook',
-    title: 'Task and Project Management',
-    description: 'Implement comprehensive task management using Outlook tasks, flags, and integration.',
-    instruction: 'Create task categories and priorities, set up recurring tasks, assign tasks to team members with due dates and reminders. Use flags to convert emails to tasks, create task reports and views. Integrate with calendar for time blocking.',
+    title: 'Task Management and Project Tracking',
+    description: 'Implement comprehensive task system with team collaboration.',
+    instruction: 'Setup: 1) Task categories (Personal, Work, Projects, Urgent), 2) Recurring tasks with reminders, 3) Task assignment to team members with due dates, 4) Email-to-task conversion using flags, 5) Custom task views and reports, 6) Calendar integration for time blocking, 7) Task progress tracking.',
     difficulty: 'advanced',
-    timeLimit: 540,
+    timeLimit: 480,
+    points: 30,
+    options: [
+      'Complete task management system with all features, assignment, and integration working',
+      'Good task setup but missing some advanced features, integration, or reporting',
+      'Basic task management but incomplete automation, assignment, or calendar integration',
+      'Attempted task features but major functionality missing or not working properly'
+    ]
+  },
+  {
+    id: 'outlook-6',
+    type: 'outlook',
+    title: 'Email Security and Encryption',
+    description: 'Configure advanced security features and message encryption.',
+    instruction: 'Setup: 1) Digital signatures for outgoing emails, 2) S/MIME certificate installation and configuration, 3) Email encryption for sensitive messages, 4) Junk email filters with custom rules, 5) Phishing protection settings, 6) Safe senders and blocked senders lists, 7) Information Rights Management (IRM).',
+    difficulty: 'advanced',
+    timeLimit: 420,
     points: 28,
     options: [
-      'Complete task management system with all features and integration',
-      'Good task setup but missing some advanced features or integration',
-      'Basic task management but incomplete automation or reporting',
-      'Attempted task features but minimal functionality achieved'
+      'Complete security setup with digital signatures, encryption, and all protection features working',
+      'Good security configuration but missing some encryption features or certificate issues',
+      'Basic security setup but incomplete digital signatures or encryption configuration',
+      'Attempted security features but major configuration issues or functionality problems'
+    ]
+  },
+  {
+    id: 'outlook-7',
+    type: 'outlook',
+    title: 'Data File Management and Archiving',
+    description: 'Implement data organization with PST files and archiving policies.',
+    instruction: 'Setup: 1) Create and configure PST files for archiving, 2) AutoArchive settings with custom intervals, 3) Mailbox cleanup tools and size management, 4) Data file passwords and security, 5) Import/export operations for data migration, 6) Backup procedures for critical emails.',
+    difficulty: 'intermediate',
+    timeLimit: 360,
+    points: 24,
+    options: [
+      'Complete data management with PST files, archiving, and backup procedures working perfectly',
+      'Good data file management but missing some archiving automation or security features',
+      'Basic PST file setup but incomplete archiving policies or backup procedures',
+      'Attempted data management but major functionality issues or security problems'
+    ]
+  },
+  {
+    id: 'outlook-8',
+    type: 'outlook',
+    title: 'Advanced Search and Filtering',
+    description: 'Create sophisticated search queries and custom filtering systems.',
+    instruction: 'Create: 1) Advanced search queries using Boolean operators, 2) Search folders for specific criteria (unread from VIP, large attachments), 3) Custom views with multiple sorting and grouping, 4) Conditional formatting rules for email highlighting, 5) Instant Search indexing optimization, 6) Search scope configurations.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 22,
+    options: [
+      'Advanced search system with complex queries, search folders, and custom views working',
+      'Good search setup but missing some advanced queries or search folder configurations',
+      'Basic search and filtering but incomplete custom views or conditional formatting',
+      'Attempted search features but limited functionality or indexing issues'
+    ]
+  },
+  {
+    id: 'outlook-9',
+    type: 'outlook',
+    title: 'Journal and Note Management',
+    description: 'Utilize Outlook Journal and Notes for comprehensive information tracking.',
+    instruction: 'Setup: 1) Journal entries for automatic activity tracking, 2) Manual journal entries for important events, 3) Note categories and organization, 4) Note integration with contacts and calendar, 5) Journal timeline views and reporting, 6) Custom journal and note templates.',
+    difficulty: 'beginner',
+    timeLimit: 240,
+    points: 18,
+    options: [
+      'Complete journal and note system with automatic tracking and organization working',
+      'Good journal setup but missing some automatic tracking or note integration',
+      'Basic journal and note usage but limited organization or template customization',
+      'Attempted journal features but minimal functionality or tracking capabilities'
+    ]
+  },
+  {
+    id: 'outlook-10',
+    type: 'outlook',
+    title: 'Mobile and Remote Access Configuration',
+    description: 'Configure Outlook for optimal mobile and remote work scenarios.',
+    instruction: 'Setup: 1) ActiveSync configuration for mobile devices, 2) Outlook Web App customization and settings, 3) Cached Exchange Mode optimization, 4) Offline email access and synchronization, 5) VPN and security considerations, 6) Mobile device policies and restrictions.',
+    difficulty: 'advanced',
+    timeLimit: 420,
+    points: 26,
+    options: [
+      'Complete mobile and remote configuration with all sync and security features working',
+      'Good mobile setup but missing some sync optimization or security configurations',
+      'Basic mobile access but incomplete offline support or device policy implementation',
+      'Attempted mobile configuration but major sync issues or security vulnerabilities'
+    ]
+  },
+  {
+    id: 'outlook-11',
+    type: 'outlook',
+    title: 'Integration with Office Applications',
+    description: 'Seamlessly integrate Outlook with other Microsoft Office applications.',
+    instruction: 'Setup: 1) Mail merge from Word using Outlook contacts, 2) Meeting scheduling from Excel data, 3) PowerPoint presentation sharing via email, 4) OneNote integration for meeting notes, 5) SharePoint document library email notifications, 6) Teams meeting integration.',
+    difficulty: 'intermediate',
+    timeLimit: 480,
+    points: 28,
+    options: [
+      'Complete Office integration with all applications working seamlessly together',
+      'Good integration but missing some features or application connectivity issues',
+      'Basic integration setup but incomplete mail merge or meeting scheduling features',
+      'Attempted integration but major functionality problems or application compatibility issues'
+    ]
+  },
+  {
+    id: 'outlook-12',
+    type: 'outlook',
+    title: 'Conversation Threading and Email Management',
+    description: 'Master conversation management and advanced email handling techniques.',
+    instruction: 'Configure: 1) Conversation view with threading optimization, 2) Clean up conversation duplicates and replies, 3) Ignore conversation feature for mass emails, 4) Reply all manager and restrictions, 5) Email recall and replacement procedures, 6) Delivery and read receipts management.',
+    difficulty: 'intermediate',
+    timeLimit: 300,
+    points: 20,
+    options: [
+      'Advanced conversation management with all threading and cleanup features working optimally',
+      'Good conversation setup but missing some cleanup automation or receipt management',
+      'Basic conversation threading but incomplete ignore features or recall procedures',
+      'Attempted conversation features but limited threading capabilities or management issues'
+    ]
+  },
+  {
+    id: 'outlook-13',
+    type: 'outlook',
+    title: 'Delegate Access and Shared Mailboxes',
+    description: 'Configure delegation and shared mailbox management for team collaboration.',
+    instruction: 'Setup: 1) Delegate permissions for calendar, email, and tasks, 2) Shared mailbox access with proper permissions, 3) Send-as and send-on-behalf configurations, 4) Shared calendar management with multiple users, 5) Mailbox folder permissions and inheritance, 6) Delegation hierarchy for executives.',
+    difficulty: 'advanced',
+    timeLimit: 540,
+    points: 34,
+    options: [
+      'Complete delegation system with shared mailboxes and all permission levels working perfectly',
+      'Good delegation setup but missing some permission configurations or shared mailbox features',
+      'Basic delegation but incomplete shared access or send-as configurations',
+      'Attempted delegation but major permission issues or functionality problems'
+    ]
+  },
+  {
+    id: 'outlook-14',
+    type: 'outlook',
+    title: 'Performance Optimization and Troubleshooting',
+    description: 'Optimize Outlook performance and resolve common issues.',
+    instruction: 'Implement: 1) OST file optimization and compacting, 2) Add-in management and performance impact analysis, 3) Startup optimization and safe mode troubleshooting, 4) Memory usage monitoring and cleanup, 5) Network connectivity troubleshooting, 6) Profile repair and recreation procedures.',
+    difficulty: 'advanced',
+    timeLimit: 360,
+    points: 24,
+    options: [
+      'Complete performance optimization with all troubleshooting procedures working effectively',
+      'Good optimization but missing some file cleanup or add-in management features',
+      'Basic performance improvements but incomplete troubleshooting or monitoring capabilities',
+      'Attempted optimization but limited effectiveness or major performance issues remain'
+    ]
+  },
+  {
+    id: 'outlook-15',
+    type: 'outlook',
+    title: 'Compliance and Legal Hold Features',
+    description: 'Configure compliance features for legal and regulatory requirements.',
+    instruction: 'Setup: 1) Litigation hold for specific mailboxes, 2) Retention policies with different periods, 3) eDiscovery searches and exports, 4) Audit log monitoring and reporting, 5) Data Loss Prevention (DLP) policies, 6) Compliance reporting and documentation.',
+    difficulty: 'advanced',
+    timeLimit: 480,
+    points: 30,
+    options: [
+      'Complete compliance system with all legal hold and retention features working correctly',
+      'Good compliance setup but missing some retention policies or eDiscovery features',
+      'Basic compliance configuration but incomplete hold procedures or audit capabilities',
+      'Attempted compliance features but major configuration issues or regulatory gaps'
     ]
   }
 ];
