@@ -17,6 +17,10 @@ export default async function handler(
 
     const apiKey = process.env.GEMINI_API_KEY;
     
+    // Debug logging (remove after testing)
+    console.log('API Key exists:', !!apiKey);
+    console.log('API Key length:', apiKey ? apiKey.length : 0);
+    
     if (!apiKey) {
       // Fallback response if no API key is configured
       const fallbackResponse = language === 'en'

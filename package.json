@@ -1,6 +1,6 @@
 {
   "name": "mos-practice-sandbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Microsoft Office Specialist practice test sandbox environment",
   "private": true,
   "type": "module",
