@@ -1,5 +1,5 @@
 // Test script to validate Gemini API key
-const GEMINI_API_KEY = 'AIzaSyD-zDDGR8Q_-4BWz82Sq_3RwLPho4yeDaU'; // Newest key from user
+const GEMINI_API_KEY = 'AIzaSyAI0NkoqbbDxtPwxQ4pIFsJ5K-9_xJHC9E'; // Newest key from user
 
 async function testGeminiAPI() {
   try {
@@ -16,13 +16,7 @@ async function testGeminiAPI() {
           parts: [{
             text: 'Hello, can you help me with Microsoft Word?'
           }]
-        }],
-        generationConfig: {
-          temperature: 0.7,
-          topK: 40,
-          topP: 0.95,
-          maxOutputTokens: 1024,
-        }
+        }]
       })
     });
 
