@@ -50,6 +50,13 @@ const Header: React.FC = () => {
             {isVietnamese ? 'Học tập AI' : 'AI Learning'}
           </Link>
           
+          <Link 
+            to="/practice-excel" 
+            style={{ color: 'white', textDecoration: 'none' }}
+          >
+            {isVietnamese ? 'Thực hành Excel' : 'Excel Sandbox'}
+          </Link>
+          
           {state.isTestActive && state.currentSession && (
             <div style={{ 
               display: 'flex', 

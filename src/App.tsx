@@ -5,6 +5,7 @@ import TestSelection from './pages/TestSelection';
 import Practice from './pages/Practice';
 import Results from './pages/Results';
 import Learning from './pages/Learning';
+import PracticeExcel from './pages/PracticeExcel';
 import { TestProvider } from './context/TestContext';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/select" element={<TestSelection />} />
           <Route path="/practice/:appType" element={<Practice />} />
+          <Route path="/practice-excel" element={<PracticeExcel />} />
           <Route path="/results" element={<Results />} />
           <Route path="/learning" element={<Learning />} />
         </Routes>

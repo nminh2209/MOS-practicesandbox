@@ -32,7 +32,7 @@ const initialState: TestState = {
     }
   },
   isTestActive: false,
-  language: 'en'
+  language: 'vi'
 };
 
 function testReducer(state: TestState, action: TestAction): TestState {
